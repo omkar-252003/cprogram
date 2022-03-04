@@ -1,23 +1,24 @@
 /******************************************************************************
 
 Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
-
+#include<conio.h>
 int main()
 {
-    char str1[20],str2[30];
-    printf("Enter name:");
-    scanf("%s",str1);
+   char c;
+   printf("\n Enter a character \n");
+   c = getchar();
+   printf("the entered character is :");
+   putchar(c);
+   
     
-    printf("Enter website name:");
-    scanf("%s",str2);
-    
-    printf("Entered name:%s \n",str1);
-    printf("Entered website name:%s \n",str2);
+   
+
     return 0;
 }
+
